@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ProjectOwl
+namespace Owl
 {
     class Program
     {

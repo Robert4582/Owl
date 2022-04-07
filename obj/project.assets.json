@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rober\\Desktop\\PB Slut opgave\\ProjectOwl\\ProjectOwl.csproj",
-      "projectName": "ProjectOwl",
-      "projectPath": "C:\\Users\\rober\\Desktop\\PB Slut opgave\\ProjectOwl\\ProjectOwl.csproj",
+      "projectUniqueName": "C:\\Users\\rober\\Desktop\\PB Slut opgave\\ProjectOwl\\Owl.csproj",
+      "projectName": "Owl",
+      "projectPath": "C:\\Users\\rober\\Desktop\\PB Slut opgave\\ProjectOwl\\Owl.csproj",
       "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\rober\\Desktop\\PB Slut opgave\\ProjectOwl\\obj\\",
       "projectStyle": "PackageReference",

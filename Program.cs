@@ -6,7 +6,11 @@ namespace Owl
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //DBWriteOperation db = new DBWriteOperation();
+
+            DBReadOperation db = new DBReadOperation();
+
+            db.Connect();
         }
     }
 }

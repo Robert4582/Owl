@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace Owl
 {
@@ -7,10 +8,10 @@ namespace Owl
         static void Main(string[] args)
         {
             //DBWriteOperation db = new DBWriteOperation();
+            //DBReadOperation db = new DBReadOperation();
+            //db.Connect();
 
-            DBReadOperation db = new DBReadOperation();
-
-            db.Connect();
+            RabbitMqReceive.Receive();
         }
     }
 }

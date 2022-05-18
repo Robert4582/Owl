@@ -8,7 +8,7 @@ namespace Owl
 {
     public class DBReadOperation : DBOperation
     {
-        public override void Connect()
+        public void Connect()
         {
             MongoClient dbClient = new MongoClient("mongodb://localhost:27017");
 

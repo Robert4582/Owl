@@ -36,3 +36,5 @@ C:\Users\rober\Desktop\PB Slut opgave\Owl\obj\Debug\netcoreapp3.1\Owl.csproj.Cop
 C:\Users\rober\Desktop\PB Slut opgave\Owl\obj\Debug\netcoreapp3.1\Owl.dll
 C:\Users\rober\Desktop\PB Slut opgave\Owl\obj\Debug\netcoreapp3.1\Owl.pdb
 C:\Users\rober\Desktop\PB Slut opgave\Owl\obj\Debug\netcoreapp3.1\Owl.genruntimeconfig.cache
+C:\Users\rober\Desktop\PB Slut opgave\Owl\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\Users\rober\Desktop\PB Slut opgave\Owl\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll

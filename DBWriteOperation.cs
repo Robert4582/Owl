@@ -18,7 +18,7 @@ namespace Owl
                 }
                 }, { "class_id", 480 }};
 
-        public override void Connect()
+        public void Connect()
         {
             MongoClient dbClient = new MongoClient("mongodb://localhost:27017");
 

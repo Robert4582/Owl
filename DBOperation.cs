@@ -5,8 +5,16 @@ using MongoDB.Driver;
 
 namespace Owl
 {
-    public abstract class DBOperation
+    public interface DBOperation
     {
-        public abstract void Connect();
+        public void Connect() { }
+
+        public void FindAllData() { }
+
+        public void FindDataByFilterAndInt() { }
+
+        public void FindDataByFilterAndSting() { }
+
+        public void InsetData() { }
     }
 }

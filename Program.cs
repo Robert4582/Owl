@@ -11,7 +11,7 @@ namespace Owl
             //DBReadOperation db = new DBReadOperation();
             //db.Connect();
 
-            RabbitMqReceive.Receive();
+            //RabbitMqReceive.Receive();
         }
     }
 }

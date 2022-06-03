@@ -37,5 +37,19 @@ namespace Owl
 
             collection.InsertOne(document);
         }
+
+        public void DeleteData()
+        {
+            DBReadOperation read = new DBReadOperation();
+            read.Connect();
+            read.FindAllData();
+
+            MongoClient dbClient = new MongoClient("mongodb://localhost:27017");
+
+            var filter = Builders<BsonDocument>.Filter.Empty;
+            var database = dbClient.GetDatabase("PB-Funday");
+            var collection = database.GetCollection<BsonDocument>("PlayerData");
+            var result = collection.DeleteMany(filter);
+        }
     }
 }

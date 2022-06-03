@@ -31,7 +31,7 @@ namespace Owl
             }
         }
 
-        public void FindDataByFilterAndInt(string Filter, int Value)
+        public BsonDocument FindDataByFilterAndInt(string Filter, int Value)
         {
             MongoClient dbClient = new MongoClient("mongodb://localhost:27017");
 
@@ -42,7 +42,8 @@ namespace Owl
             var filter = Builders<BsonDocument>.Filter.Eq(Filter, Value);
             var documents = collection.Find(filter).FirstOrDefault();
 
-            Console.WriteLine(documents.ToString());
+            return documents;
+            //Console.WriteLine(documents.ToString());
         }
 
         public void FindDataByFilterAndSting(string Filter, String Value)

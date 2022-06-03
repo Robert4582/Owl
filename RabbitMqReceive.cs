@@ -7,32 +7,41 @@ namespace Owl
 {
     public class RabbitMqReceive
     {
-        public static void Receive()
+        private ConnectionFactory connectionFactory;
+        private IConnection connection;
+        private IModel channel;
+
+        public RabbitMqReceive()
         {
-            var factory = new ConnectionFactory() { HostName = "localhost" };
-            using (var connection = factory.CreateConnection())
-            using (var channel = connection.CreateModel())
+            connectionFactory = new ConnectionFactory() { HostName = "localhost" };
+            connection = connectionFactory.CreateConnection();
+            channel = connection.CreateModel();
+        }
+
+        public bool Receive()
+        {
+            channel.QueueDeclare(queue: "DataPack",
+                                    durable: false,
+                                    exclusive: false,
+                                    autoDelete: false,
+                                    arguments: null);
+
+            var consumer = new EventingBasicConsumer(channel);
+            consumer.Received += (model, ea) =>
             {
-                channel.QueueDeclare(queue: "DataPack",
-                                     durable: false,
-                                     exclusive: false,
-                                     autoDelete: false,
-                                     arguments: null);
+                var body = ea.Body.ToArray();
+                var message = Encoding.UTF8.GetString(body);
+                Console.WriteLine(" [x] Received {0}", message);
+            };
+            channel.BasicConsume(queue: "DataPack",
+                                    autoAck: true,
+                                    consumer: consumer);
 
-                var consumer = new EventingBasicConsumer(channel);
-                consumer.Received += (model, ea) =>
-                {
-                    var body = ea.Body.ToArray();
-                    var message = Encoding.UTF8.GetString(body);
-                    Console.WriteLine(" [x] Received {0}", message);
-                };
-                channel.BasicConsume(queue: "DataPack",
-                                     autoAck: true,
-                                     consumer: consumer);
+            //Console.WriteLine(" Press [enter] to exit.");
+            //Console.ReadLine();
 
-                Console.WriteLine(" Press [enter] to exit.");
-                Console.ReadLine();
-            }
+            return true;
+            
         }
     }
 }

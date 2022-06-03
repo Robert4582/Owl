@@ -108,17 +108,25 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.2.0, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.15.1, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.1, )"
+            },
             "NUnit": {
               "target": "Package",
-              "version": "[3.12.0, )"
+              "version": "[3.13.3, )"
             },
             "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[3.16.1, )"
+              "version": "[4.2.1, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",

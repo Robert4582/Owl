@@ -18,8 +18,7 @@ jobs:
         
     - name: Restore dependencies
       run: dotnet restore
-      
-    - name: Setup RabbitMQ
+    
     - uses: mer-team/rabbitmq-mng-action@v1.2
       with:
         RABBITMQ_PORT: 5672

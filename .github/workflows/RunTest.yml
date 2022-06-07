@@ -24,6 +24,9 @@ jobs:
         RABBITMQ_PORT: 5672
         RABBITMQ_MNG_PORT: 15672
         
+    - name: MongoDB for GitHub Actions
+      uses: timgchile/mongodb-github-action@1.7.4
+        
     - name: Build
       run: dotnet build --no-restore
       

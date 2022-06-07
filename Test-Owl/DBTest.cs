@@ -30,9 +30,7 @@ namespace Test_Owl
                 }, { "class_id", 480 }};
 
             DBWriteOperation dB = new DBWriteOperation();
-            dB.Connect();
             DBReadOperation read = new DBReadOperation();
-            read.Connect();
 
             //Act
             dB.InsetData(document);
@@ -46,7 +44,6 @@ namespace Test_Owl
         public void TearDown()
         {
             DBWriteOperation dB = new DBWriteOperation();
-            dB.Connect();
             dB.DeleteData();
         }
     }

@@ -8,7 +8,9 @@ namespace Test_Owl
 {
     public class RabbitTest
     {
-        public void Rabbit()
+        
+        [SetUp]
+        public void Setup() 
         {
             var factory = new ConnectionFactory() { HostName = "localhost" };
             using (var connection = factory.CreateConnection())
@@ -31,15 +33,11 @@ namespace Test_Owl
             }
         }
 
-        [SetUp]
-        public void Setup() { }
-
         [Test]
         public void TestRabbit()
         {
             //Arrange
             RabbitMqReceive RabbitMq = new RabbitMqReceive();
-            Rabbit();
 
             //Act
             RabbitMq.Receive();

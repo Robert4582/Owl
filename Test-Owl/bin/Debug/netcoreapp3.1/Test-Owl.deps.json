@@ -13,7 +13,7 @@
           "Moq": "4.18.1",
           "NUnit": "3.13.3",
           "NUnit3TestAdapter": "4.2.1",
-          "Owl": "1.0.0",
+          "Owl-V2": "1.0.0",
           "RabbitMQ.Client": "6.3.0"
         },
         "runtime": {
@@ -555,20 +555,6 @@
           "Microsoft.NETCore.Platforms": "5.0.0",
           "Microsoft.Win32.Registry": "5.0.0",
           "System.Security.Principal.Windows": "5.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Diagnostics.EventLog.dll": {
-            "assemblyVersion": "4.0.2.0",
-            "fileVersion": "4.700.19.56404"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp2.0/System.Diagnostics.EventLog.dll": {
-            "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "4.0.2.0",
-            "fileVersion": "4.700.19.56404"
-          }
         }
       },
       "System.Diagnostics.Tools/4.0.1": {
@@ -902,13 +888,13 @@
           "System.Xml.ReaderWriter": "4.0.11"
         }
       },
-      "Owl/1.0.0": {
+      "Owl-V2/1.0.0": {
         "dependencies": {
           "MongoDB.Driver": "2.15.1",
           "RabbitMQ.Client": "6.3.0"
         },
         "runtime": {
-          "Owl.dll": {}
+          "Owl-V2.dll": {}
         }
       }
     }
@@ -1353,7 +1339,7 @@
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
     },
-    "Owl/1.0.0": {
+    "Owl-V2/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

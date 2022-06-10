@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Owl.csproj" />
+    <ProjectReference Include="..\Owl-V2\Owl-V2.csproj" />
   </ItemGroup>
 
 </Project>

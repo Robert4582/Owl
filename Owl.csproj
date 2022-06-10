@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,8 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Owl-V2\**" />
+    <Compile Remove="Rest\**" />
     <Compile Remove="Test-Owl\**" />
+    <EmbeddedResource Remove="Owl-V2\**" />
+    <EmbeddedResource Remove="Rest\**" />
     <EmbeddedResource Remove="Test-Owl\**" />
+    <None Remove="Owl-V2\**" />
+    <None Remove="Rest\**" />
     <None Remove="Test-Owl\**" />
   </ItemGroup>
 

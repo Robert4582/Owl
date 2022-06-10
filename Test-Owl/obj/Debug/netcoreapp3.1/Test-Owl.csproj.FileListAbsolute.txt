@@ -1,8 +1,6 @@
-C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\Owl.dll
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\obj\Debug\netcoreapp3.1\Test-Owl.csprojAssemblyReference.cache
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\obj\Debug\netcoreapp3.1\Test-Owl.AssemblyInfoInputs.cache
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\obj\Debug\netcoreapp3.1\Test-Owl.AssemblyInfo.cs
-C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\Owl.exe
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\nunit.engine.dll
@@ -10,7 +8,6 @@ C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\nunit
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\Test-Owl.deps.json
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\Test-Owl.dll
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\Test-Owl.pdb
-C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\Owl.pdb
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\obj\Debug\netcoreapp3.1\Test-Owl.csproj.CoreCompileInputs.cache
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\obj\Debug\netcoreapp3.1\Test-Owl.csproj.CopyComplete
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\obj\Debug\netcoreapp3.1\Test-Owl.dll
@@ -42,7 +39,6 @@ C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\NuGet
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\nunit.framework.dll
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\SharpCompress.dll
-C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\System.Diagnostics.EventLog.dll
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
@@ -123,8 +119,12 @@ C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\runti
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\runtimes\linux\native\libmongocrypt.so
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\runtimes\osx\native\libmongocrypt.dylib
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\runtimes\win\native\mongocrypt.dll
-C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.dll
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\obj\Debug\netcoreapp3.1\Test-Owl.genruntimeconfig.cache
+C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\Owl-V2.exe
+C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\Owl-V2.dll
+C:\Users\rober\Desktop\PB Slut opgave\Owl\Test-Owl\bin\Debug\netcoreapp3.1\Owl-V2.pdb

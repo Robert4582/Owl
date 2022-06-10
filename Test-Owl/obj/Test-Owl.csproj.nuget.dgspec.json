@@ -4,14 +4,14 @@
     "C:\\Users\\rober\\Desktop\\PB Slut opgave\\Owl\\Test-Owl\\Test-Owl.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rober\\Desktop\\PB Slut opgave\\Owl\\Owl.csproj": {
+    "C:\\Users\\rober\\Desktop\\PB Slut opgave\\Owl\\Owl-V2\\Owl-V2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rober\\Desktop\\PB Slut opgave\\Owl\\Owl.csproj",
-        "projectName": "Owl",
-        "projectPath": "C:\\Users\\rober\\Desktop\\PB Slut opgave\\Owl\\Owl.csproj",
+        "projectUniqueName": "C:\\Users\\rober\\Desktop\\PB Slut opgave\\Owl\\Owl-V2\\Owl-V2.csproj",
+        "projectName": "Owl-V2",
+        "projectPath": "C:\\Users\\rober\\Desktop\\PB Slut opgave\\Owl\\Owl-V2\\Owl-V2.csproj",
         "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rober\\Desktop\\PB Slut opgave\\Owl\\obj\\",
+        "outputPath": "C:\\Users\\rober\\Desktop\\PB Slut opgave\\Owl\\Owl-V2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,6 +60,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -92,8 +95,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\rober\\Desktop\\PB Slut opgave\\Owl\\Owl.csproj": {
-                "projectPath": "C:\\Users\\rober\\Desktop\\PB Slut opgave\\Owl\\Owl.csproj"
+              "C:\\Users\\rober\\Desktop\\PB Slut opgave\\Owl\\Owl-V2\\Owl-V2.csproj": {
+                "projectPath": "C:\\Users\\rober\\Desktop\\PB Slut opgave\\Owl\\Owl-V2\\Owl-V2.csproj"
               }
             }
           }
@@ -144,6 +147,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
